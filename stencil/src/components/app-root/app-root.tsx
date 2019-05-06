@@ -4,13 +4,12 @@ import { h, Component } from '@stencil/core';
 @Component({
   tag: 'app-root',
   styleUrl: 'app-root.css',
-  shadow: true
+  shadow: false
 })
 export class AppRoot {
-
   render() {
     return (
-      <div></div>
+      <h1>Hello <span style={{ color: 'gold' }}>Stencil</span>!</h1>
     );
   }
 }
